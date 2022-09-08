@@ -1,5 +1,11 @@
 #!/bin/bash
 #include <stdio.h>
+
+/**
+ * main - entry
+ * 
+ * Return: Always 0 (Valid)
+ */
 int main(void)
 {  
 	  puts("\"Programming is like building a multilingual puzzle");
