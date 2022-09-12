@@ -1,4 +1,5 @@
-#include <stdio.hi>
+#include <stdio.h>
+
 /**
  * main - Entry
  *
