@@ -6,28 +6,26 @@
  * @n: parameter
  * Return: returns nothing
  */
-
-void prints_diagonal(int n)
+void print_diagonal(int n)
 {
-	int len, space;
+	int a = 0;
+	int b = 0;
 
-	if (n >  0)
+	if (n > 0)
 	{
-		for (len = 0; len < n; len++)
+		while (a < n)
 		{
-			for (space = 0; space < len; space++)
+			while (b < a)
 			{
-				putchar(' ');
+				_putchar(' ');
+				b++;
 			}
-
-			putchar('\\');
-
-			if (len == (n - 1))
-			{
-				continue;
-			}
-			putchar('\n');
+			a++
+				b = 0;
+			_putchar('\\')
+				_putchar('\n');
 		}
 	}
-	putchar('\n')
+	else
+		_putchar('\n');
 }
