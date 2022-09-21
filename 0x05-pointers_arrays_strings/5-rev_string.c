@@ -2,9 +2,7 @@
 
 /**
  * rev_string - prints every other character
- * @s: string
- *
- * Return: nothing
+ * @s: string s
  */
 
 void rev_string(char *s)
