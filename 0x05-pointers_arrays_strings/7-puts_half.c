@@ -4,8 +4,7 @@
 /**
  * puts_half - a function that prints half a string
  * if odd len, n = (length - 1) / 2
- * @str: input
- * Return: half of input
+ * @str: param
  */
 void puts_half(char *str)
 {
