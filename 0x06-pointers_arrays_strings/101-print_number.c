@@ -3,6 +3,7 @@
 /**
  * print_number - Prints an integer
  * @n: The integer to be printed
+ * _putchar: function to be used
  */
 void print_number(int n)
 {
@@ -10,12 +11,10 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		num = -num;
 	}
-
 	if ((num / 10) > 0)
 		print_number(num / 10);
-
-	putchar((num % 10) + '0');
+		_putchar((num % 10) + '0');
 }
