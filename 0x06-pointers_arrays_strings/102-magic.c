@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/**main - Entry point */
+
 int main(void)
 {
 	int n;
@@ -12,9 +14,7 @@ int main(void)
 	 * You are not allowed to use the variable a
 	 * You are not allowed to modify the variable p
 	 * You can only write one statement
-	 * main: prototype function
-	 *  Your code should be written at line 19,
-	 *  You are allowed to use the standard library
+	 * main - prototype function
 	 */
 	*(p + 5) = 98;
 	/* ...so that this prints 98\n */
