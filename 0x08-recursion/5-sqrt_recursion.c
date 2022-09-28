@@ -3,6 +3,7 @@
 /**
  * _sqrt_recursion - returns the natural square root of a numbber
  * @n: number to be used
+ * _sqrt - returns the square root of a no
  * Return: the square root of n
  */
 int _sqrt_recursion(int n)
