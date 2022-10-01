@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * main - a program that multiplies two numbers
  * desc -  a program that multiplies two numbers
  * @argc: number of arguments
  * @argv: argument vector
