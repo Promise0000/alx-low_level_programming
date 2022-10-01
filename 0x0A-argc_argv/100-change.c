@@ -39,6 +39,9 @@ int main(int args, char *argv[])
 
 		else if (c >= 1)
 			c -= 1;
+		else
+			break;
+		coins += 1;
 	}
 	printf("%d\n", coins);
 	return (0);
